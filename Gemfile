@@ -7,6 +7,7 @@ end
 
 # Administrator Dashboard
 gem 'administrate'
+gem 'bourbon'
 
 # RAILS GEMS
 
