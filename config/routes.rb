@@ -3,6 +3,9 @@ Rails.application.routes.draw do
     sessions: 'admins/sessions', passwords: 'admins/passwords'
   }
 
+  # JS Testing
+  mount JasmineRails::Engine => '/specs' if defined?(JasmineRails)
+  # Dashboard
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
   get 'welcome/index'
