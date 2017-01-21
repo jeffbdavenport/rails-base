@@ -10,6 +10,8 @@ ruby '2.3.3'
 gem 'devise'
 # For ENV variables
 gem 'figaro'
+# PostgreSQL instead of sqlite3
+gem 'pg'
 # Administrator Dashboard
 gem 'rails_admin'
 
@@ -21,7 +23,6 @@ gem 'rails', '~> 5.0.1'
 # Use Puma as the app server - currently using passenger
 # gem 'puma', '~> 3.0'
 
-gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
