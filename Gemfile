@@ -6,12 +6,18 @@ git_source(:github) do |repo_name|
 end
 ruby '2.3.3'
 
+# Bootstrap gem
+gem 'bootstrap-sass'
 # User gem
 gem 'devise'
 # For ENV variables
 gem 'figaro'
+# To use friendly names instead of ids
+gem 'friendly_id'
 # HAML Instead of erb
 gem 'haml'
+# Image uploads
+gem 'paperclip', git: 'https://github.com/thoughtbot/paperclip.git'
 # PostgreSQL instead of sqlite3
 gem 'pg'
 # Administrator Dashboard
