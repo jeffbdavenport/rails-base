@@ -5,12 +5,10 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: mysql2
+  adapter: sqlite3
   pool: 5
   timeout: 5000
-  password: "<%=ENV['MYSQL_P']%>"
-  username: root
-  host: localhost
+  database: db/jacobbennett.sqlite3
 
 
 development:
@@ -22,8 +20,6 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: jacobbennett
 
 production:
   <<: *default
-  database: db/production.sqlite3
