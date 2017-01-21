@@ -10,6 +10,8 @@ ruby '2.3.3'
 gem 'devise'
 # For ENV variables
 gem 'figaro'
+# HAML Instead of erb
+gem 'haml'
 # PostgreSQL instead of sqlite3
 gem 'pg'
 # Administrator Dashboard
