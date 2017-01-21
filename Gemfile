@@ -5,12 +5,14 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-# Administrator Dashboard
-gem 'rails_admin'
-# Use mysql instead of sqlite3
-gem 'mysql2'
 # User gem
 gem 'devise'
+# For ENV variables
+gem 'figaro'
+# Use mysql instead of sqlite3
+gem 'mysql2'
+# Administrator Dashboard
+gem 'rails_admin'
 
 # RAILS GEMS
 
