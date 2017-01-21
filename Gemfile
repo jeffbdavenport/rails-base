@@ -7,6 +7,8 @@ end
 
 # Administrator Dashboard
 gem 'rails_admin'
+# Use mysql instead of sqlite3
+gem 'mysql2'
 # User gem
 gem 'devise'
 
