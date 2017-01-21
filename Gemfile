@@ -6,8 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 # Administrator Dashboard
-gem 'administrate'
-gem 'bourbon'
+gem 'rails_admin'
+# User gem
+gem 'devise'
 
 # RAILS GEMS
 
@@ -16,7 +17,7 @@ gem 'rails', '~> 5.0.1'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use Puma as the app server
-gem 'puma', '~> 3.0'
+# gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
