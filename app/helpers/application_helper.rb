@@ -1,5 +1,5 @@
 module ApplicationHelper
   def site_name
-    'Jacob Bennett Tattoo'
+    ENV['SITE_NAME']
   end
 end

@@ -1,7 +1,9 @@
 AllCops:
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.4.1
 LineLength:
   Enabled: true
   Max: 120
 Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Documentation:
   Enabled: false
