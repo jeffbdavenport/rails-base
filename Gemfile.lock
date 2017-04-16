@@ -237,6 +237,9 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    slim (3.0.7)
+      temple (~> 0.7.6)
+      tilt (>= 1.3.3, < 2.1)
     spring (2.0.1)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -252,6 +255,7 @@ GEM
     sshkit (1.13.1)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
+    temple (0.7.7)
     therubyracer (0.12.3)
       libv8 (~> 3.16.14.15)
       ref
@@ -286,7 +290,6 @@ DEPENDENCIES
   devise!
   figaro
   friendly_id
-  haml
   jasmine
   jasmine-rails
   jbuilder
@@ -300,6 +303,7 @@ DEPENDENCIES
   rails_admin
   rspec-rails
   sass-rails
+  slim
   spring
   spring-watcher-listen
   therubyracer

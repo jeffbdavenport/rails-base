@@ -13,8 +13,8 @@ gem 'devise', git: 'git@github.com:plataformatec/devise.git'
 gem 'figaro'
 # To use friendly names instead of ids
 gem 'friendly_id'
-# HAML Instead of erb
-gem 'haml'
+# Slim Instead of erb
+gem 'slim'
 # Image uploads
 gem 'paperclip', git: 'https://github.com/thoughtbot/paperclip.git'
 # PostgreSQL instead of sqlite3
