@@ -6,7 +6,7 @@ end
 ruby '2.4.1'
 
 # Bootstrap gem
-gem 'bootstrap-sass'
+gem 'materialize-sass'
 # User gem
 gem 'devise'
 # For ENV variables
