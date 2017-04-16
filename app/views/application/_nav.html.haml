@@ -1,10 +1,11 @@
-.navbar.navbar-inverse
-  .container-fluid
-    .navbar-header
-      %a.navbar-brand{ href: root_path }= site_name
-    - if current_admin
-      %ul.nav.navbar-nav.navbar-right
-        %li
-          %a{ href: '#' }
-            %span.glyphicon.glyphicon-log-in
-            Dashboard
+%nav
+  .nav-wrapper.navbar-inverse
+    .container-fluid
+      .navbar-header
+        %a.navbar-brand{ href: root_path }= site_name
+      - if current_admin
+        %ul.nav-mobile.right.hide-on-med-and-down
+          %li
+            %a{ href: '#' }
+              %span.glyphicon.glyphicon-log-in
+              Dashboard

@@ -7,7 +7,7 @@ RailsAdmin.config do |config|
   end
   config.current_user_method(&:current_admin)
 
-  config.main_app_name = ['Jake Bennett Tattoo']
+  config.main_app_name = [ENV['SITE_NAME']]
 
   ## == Cancan ==
   # config.authorize_with :cancan
