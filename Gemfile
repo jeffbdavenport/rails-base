@@ -8,7 +8,7 @@ ruby '2.4.1'
 # Bootstrap gem
 gem 'materialize-sass'
 # User gem
-gem 'devise'
+gem 'devise', git: 'git@github.com:plataformatec/devise.git'
 # For ENV variables
 gem 'figaro'
 # To use friendly names instead of ids
@@ -25,7 +25,7 @@ gem 'rails_admin'
 # RAILS GEMS
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
+gem 'rails', '= 5.0.2'
 
 # Use Puma as the app server - currently using passenger
 gem 'puma'
@@ -35,7 +35,7 @@ gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails'
+gem 'coffee-rails', git: 'git@github.com:rails/coffee-rails.git'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 
