@@ -12,7 +12,7 @@ gem 'devise', github: 'plataformatec/devise'
 # For ENV variables
 gem 'figaro'
 # To use friendly names instead of ids
-#gem 'friendly_id'
+gem 'friendly_id'
 # Slim Instead of erb
 gem 'slim'
 # Image uploads
