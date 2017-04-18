@@ -8,15 +8,15 @@ ruby '2.4.1'
 # Bootstrap gem
 gem 'materialize-sass'
 # User gem
-gem 'devise', git: 'git@github.com:plataformatec/devise.git'
+gem 'devise', github: 'plataformatec/devise'
 # For ENV variables
 gem 'figaro'
 # To use friendly names instead of ids
-gem 'friendly_id'
+#gem 'friendly_id'
 # Slim Instead of erb
 gem 'slim'
 # Image uploads
-gem 'paperclip', git: 'https://github.com/thoughtbot/paperclip.git'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 # PostgreSQL instead of sqlite3
 gem 'pg'
 # Administrator Dashboard
@@ -25,17 +25,21 @@ gem 'rails_admin'
 # RAILS GEMS
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'arel',  '7.1.4'
+gem 'rack',  github: 'rack/rack'
 gem 'rails', '= 5.0.2'
+gem 'sprockets', github: 'rails/sprockets'
 
 # Use Puma as the app server - currently using passenger
 gem 'puma'
 
+gem 'sprockets-rails',  github: 'rails/sprockets-rails'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', git: 'git@github.com:rails/coffee-rails.git'
+gem 'coffee-rails', github: 'rails/coffee-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem 'therubyracer', platforms: :ruby
 

@@ -10,8 +10,12 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- * @import 'bootstrap-sprockets'
+ * @import 'materialize-sprockets'
  */
-@import 'materialize/components/color'
+@import 'components/color'
+$primary-color: color('light-blue', 'lighten-1') !default
+
+@import 'materialize/components/variables'
+@import 'materialize/components/roboto'
 @import 'materialize'
 @import 'https://fonts.googleapis.com/icon?family=Material+Icons'
