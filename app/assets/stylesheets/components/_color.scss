@@ -392,6 +392,9 @@ $colors: (
   }
   .#{$color}-text {
     color: $color_value !important;
+    svg > * {
+      fill: $color_value !important;
+    }
   }
 }
 
